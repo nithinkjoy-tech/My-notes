@@ -9,4 +9,4 @@ bubbling means event is propogating up the DOM tree (child to parent). \
 tricking or capturing means event is propogating down the DOM tree (parent to child).
 
 ## JS
-Higher order function are functions which takes function as parameters. Ex: filter, map, reduce etc.
+Higher order function are functions which takes function as parameters or returns a function. Ex: filter, map, reduce etc.
