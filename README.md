@@ -10,6 +10,10 @@ A higher-order component in Reactjs is a function that takes a component and ret
 useRef is used to declare a variable where the value should not change even when the component is rerendered. \
 Also it is used to reference a DOM element.
 
+forwardRef is used when you need to pass a ref to the child and access and modify its property (bcz passing refs like a prop won't work.)
+
+useImperativeHandle is used when you need to call a function or anything of children from its parent.
+
 ## Frontent JS
 Bubbling means event is propogating up the DOM tree (child to parent).
 
